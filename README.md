@@ -1,12 +1,12 @@
 # About
-This is a Django-based solution. It uses Celery for task scheduling and Redis as its broker. The solution includes unit tests to make sure than objects can be created and inserted in the database.
+This is a Django-based solution. It uses Celery for task scheduling and Redis as its broker. The solution includes unit tests to make sure that objects can be created and inserted in the database.
 
 Each schema is a different django app in the project.
 
 Django oficially supports the most relevant SQL databases by default and the models are almost database independent. However, I went for MongoDB because the data was given me in files and it was extremely easy for me to import it into the database. If I had no time constraints I would have chosen PostgreSQL or MariaDB.
 
 ## A quick glance
-If you want to take a quick look at the relevant files, I sugges you check the disembursements/models.py and the other models.py files in the different folders.
+If you want to take a quick look at the relevant files, I sugges you check the disembursements/models.py, disembursements/tests.py, and the other models.py files in the different folders.
 
 # Instalation
 Follow the steps below if you want to install the solution
