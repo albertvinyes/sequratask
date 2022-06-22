@@ -36,12 +36,12 @@ Clone the repository and create a virtual environment inside the git folder.
 cd /path/to/git/project/
 python3 -m venv venv
 ```
-Activate environment and install project dependencies into project dependencies.
+Activate environment.
 ```
 source venv/bin/activate
 ```
 
-After that install the project dependencies. If the following command runs into issues use the requirementsTest.txt file instead.
+After that install the project dependencies.
 ```
 cd project/
 pip install -r requirements.txt
