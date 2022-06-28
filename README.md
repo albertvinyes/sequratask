@@ -24,7 +24,6 @@ docker run -d -p 27017:27017 --name example-mongo mongo:latest
 Install these packages beforehand if they are not installed on your machine. 
 ```
 sudo apt udpate
-sudo apt install postgresql postgresql-contrib
 sudo apt install python3
 sudo apt install python3-pip
 sudo apt install python3-pip
@@ -94,7 +93,7 @@ As you can see, the solution is organised in different folders (merchant, orders
 
 If you want to check how the API is implemented go to disembursements->views.py and urls.py. The disembursements app is the main one. It has a tasks.py file where the repeatable Celery tasks can be defined.
 
-The project folder holds the settingsm brings the different URLs (APIs) together and includes a tasks file where the weekly task is defined.
+The project folder holds the settings, brings the different URLs (APIs) together and includes a tasks file where the weekly task is defined.
 
 The manage.py file sitting on the root folder is a standard Django file allowing us to create migrations, run a simple development web server and running tests, among other features.
 
